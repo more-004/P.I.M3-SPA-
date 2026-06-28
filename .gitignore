@@ -1,0 +1,11 @@
+# Evitar subir la clave privada real a GitHub
+.env
+
+# Ocultar carpetas de dependencias y compilación
+node_modules/
+.vercel/
+
+# Archivos sueltos del sistema operativo
+.DS_Store
+npm-debug.log*
+.vercel

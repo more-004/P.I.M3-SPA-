@@ -1,0 +1,29 @@
+{
+  "name": "copa-piston-spa",
+  "version": "1.0.0",
+  "description": "Proyecto - Single Page Application con Gemini AI y Rayo McQueen",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vercel build",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "spa",
+    "vanilla-js",
+    "gemini-ai",
+    "vercel"
+  ],
+  "author": "Estudiante",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.10.0"
+  },
+  "devDependencies": {
+    "vercel": "latest",
+    "vite": "^8.1.0",
+    "vite-plugin-vercel": "^11.1.1",
+    "vitest": "latest"
+  }
+}
