@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vercel build",
+    "build": "vite build",
     "test": "vitest run"
   },
   "keywords": [
